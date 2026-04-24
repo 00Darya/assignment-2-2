@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <title>Donuts?</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+        <style>
+            .row{
+                width: %;0px;
+                margin:0px auto 0px auto ;
+            }
+            .image-container {
+                display: table-cell;
+                vertical-align: middle;
+                padding: 0%;0px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+    <script>
+    var sound1 = new Audio("sound/num.wav")
+
+
+
+    
+    window.onload = function(){
+        document.getElementById('circle').addEventListener('click', function () {sound1.play();})
+         document.getElementById('2').addEventListener('click', function () {sound1.play();})
+ document.getElementById('1').addEventListener('click', function () {sound1.play();})
+ document.getElementById('3').addEventListener('click', function () {sound1.play();})
+ document.getElementById('4').addEventListener('click', function () {sound1.play();})
+ document.getElementById('5').addEventListener('click', function () {sound1.play();})
+ document.getElementById('6').addEventListener('click', function () {sound1.play();})
+ document.getElementById('7').addEventListener('click', function () {sound1.play();})
+ document.getElementById('8').addEventListener('click', function () {sound1.play();})
+
+
+    };
+    </script>
+
+        <div class="row">
+            <div class="image-container"><img id='0' src="img/run1.png" onmouseover="this.src='img/run2.png';" onmouseout="this.src='img/run1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='1' src="img/squat1.png" onmouseover="this.src='img/squat2.png';" onmouseout="this.src='img/squat1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='2' src="img/lift1.png" onmouseover="this.src='img/lift2.png';" onmouseout="this.src='img/lift1.png'"src="img/squ.png" height="300" width="470"/></div>
+        </div>
+
+
+ <div class="row">
+            <div class="image-container"><img id='3' src="img/cycle1.png" onmouseover="this.src='img/cycle2.png';" onmouseout="this.src='img/cycle1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='4' src="img/jump1.png" onmouseover="this.src='img/jump2.png';" onmouseout="this.src='img/jump1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='5' " src="img/plank1.png" onmouseover="this.src='img/plank2.png';" onmouseout="this.src='img/plank1.png'"src="img/squ.png" height="300" width="470"/></div>
+        </div>
+
+       
+        <div class="row">
+            <div class="image-container"><img id='6' src="img/push1.png" onmouseover="this.src='img/push2.png';" onmouseout="this.src='img/push1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='7' src="img/relax1.png" onmouseover="this.src='img/relax2.png';" onmouseout="this.src='img/relax1.png'" height="300" width="470"/></div>
+            <div class="image-container"><img id='8' " src="img/swim1.png" onmouseover="this.src='img/swim2.png';" onmouseout="this.src='img/swim1.png'"src="img/squ.png" height="300" width="470"/></div>
+        </div>
+
+    </body>
+    
+</html>
